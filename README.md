@@ -20,3 +20,7 @@ window.show();
 
 app.run();
 ```
+
+##### Output
+
+![preview](https://raw.githubusercontent.com/archaeopteryx1/node-fltk/main/assets/example.png)

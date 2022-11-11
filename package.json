@@ -1,6 +1,7 @@
 {
   "name": "fltk",
   "version": "0.0.0",
+  "description": "Native fltk bindings for node",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -21,11 +22,6 @@
     }
   },
   "license": "MIT",
-  "devDependencies": {
-    "@napi-rs/cli": "^2.12.0",
-    "@types/node": "^18.11.9",
-    "ava": "^4.3.3"
-  },
   "ava": {
     "timeout": "3m"
   },
@@ -40,5 +36,28 @@
     "test": "ava",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.12.0",
+    "@types/node": "^18.11.9",
+    "ava": "^4.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archaeopteryx1/node-fltk.git"
+  },
+  "keywords": [
+    "fltk",
+    "gui",
+    "node",
+    "api",
+    "napi",
+    "window",
+    "graphics"
+  ],
+  "author": "Archaeopteryx",
+  "bugs": {
+    "url": "https://github.com/archaeopteryx1/node-fltk/issues"
+  },
+  "homepage": "https://github.com/archaeopteryx1/node-fltk#readme"
 }
